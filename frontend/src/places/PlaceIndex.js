@@ -8,7 +8,7 @@ function PlaceIndex(data) {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch(`http://localhost:9000/places`);
+      const response = await fetch(`http://localhost:5000/places`);
       const resData = await response.json();
       setPlaces(resData);
     };
