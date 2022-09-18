@@ -13,12 +13,12 @@ function Navigation() {
     let loginActions = (
         <>
             <li style={{ float: 'right' }}>
-                <a href="#" onClick={() => history.push("/SignUpForm")}>
+                <a href="#" onClick={() => history.push("/sign-up")}>
                     Sign Up
                 </a>
             </li>
             <li style={{ float: 'right' }}>
-                <a href="#" onClick={() => history.push("/LoginForm")}>
+                <a href="#" onClick={() => history.push("/login")}>
                     Login
                 </a>
             </li>
